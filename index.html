@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Maxwell Creative Media - Commercial Photography Pricing</title>
+ <style>
+ body {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+ background-color: #121212; /* Dark grey background */
+ color: #e0e0e0; /* Light grey text */
+ line-height: 1.6;
+ }
+ .container {
+ max-width: 1000px;
+ margin: 0 auto;
+ padding: 20px;
+ background-color: #1e1e1e; /* Slightly lighter dark grey for container */
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Darker shadow */
+ }
+ header {
+ text-align: center;
+ padding: 20px 0;
+ border-bottom: 2px solid #444; /* Medium grey border */
+ }
+ header h1 {
+ margin: 0;
+ font-size: 2.5em;
+ color: #f5f5f5; /* Off-white for main heading */
+ }
+ header p {
+ margin: 5px 0;
+ font-size: 1.1em;
+ color: #b0b0b0; /* Lighter grey for subtext */
+ }
+ section {
+ margin: 20px 0;
+ }
+ h2 {
+ color: #cccccc; /* Light grey for section titles */
+ font-size: 1.8em;
+ border-bottom: 1px solid #333; /* Darker grey border */
+ padding-bottom: 5px;
+ }
+ h3 {
+ color: #bbbbbb; /* Slightly darker light grey for sub-headings */
+ font-size: 1.4em;
+ margin-top: 15px;
+ }
+ ul {
+ list-style-type: none;
+ padding: 0;
+ }
+ li {
+ margin: 10px 0;
+ padding: 10px;
+ background-color: #2a2a2a; /* Darker grey for list items */
+ border-radius: 5px;
+ border: 1px solid #383838; /* Subtle border for list items */
+ }
+ li strong {
+ color: #d0d0d0; /* Light grey for strong text */
+ }
+ p.note {
+ font-style: italic;
+ color: #999; /* Medium grey for notes */
+ margin-top: 10px;
+ }
+ .example {
+ background-color: #252525; /* Dark grey for example boxes */
+ padding: 15px;
+ border-left: 5px solid #555; /* Medium grey accent border */
+ margin: 15px 0;
+ }
+ footer {
+ text-align: center;
+ padding: 20px 0;
+ background-color: #000; /* Black footer background */
+ color: #ccc; /* Light grey footer text */
+ margin-top: 20px;
+ }
+ footer a {
+ color: #e0e0e0; /* Light grey for footer links */
+ text-decoration: underline;
+ }
+ @media (max-width: 600px) {
+ .container {
+ padding: 10px;
+ }
+ header h1 {
+ font-size: 2em;
+ }
+ h2 {
+ font-size: 1.5em;
+ }
+ h3 {
+ font-size: 1.2em;
+ }
+ }
+ /* CSS for Quote Builder Form */
+ #quoteForm fieldset {
+ margin-bottom: 20px;
+ border: 1px solid #444; /* Medium grey border */
+ padding: 15px;
+ border-radius: 5px;
+ background-color: #2c2c2c; /* Dark grey fieldset background */
+ }
+ #quoteForm legend {
+ font-weight: bold;
+ color: #cccccc; /* Light grey legend text */
+ padding: 0 10px;
+ font-size: 1.2em;
+ margin-bottom: 10px;
+ }
+ #quoteForm label {
+ display: block;
+ margin: 10px 0 5px;
+ font-weight: 500;
+ color: #d0d0d0; /* Light grey label text */
+ }
+ #quoteForm select,
+ #quoteForm input[type="number"],
+ #quoteForm input[type="text"] {
+ width: 100%;
+ padding: 10px;
+ margin-bottom: 10px;
+ border: 1px solid #555; /* Medium grey border for inputs */
+ border-radius: 4px;
+ box-sizing: border-box;
+ background-color: #333; /* Darker grey input background */
+ color: #e0e0e0; /* Light grey input text */
+ }
+ #quoteForm .addon-item {
+ display: flex;
+ align-items: center;
+ margin-bottom: 8px;
+ flex-wrap: wrap; /* Allow wrapping on small screens */
+ }
+ #quoteForm .addon-item input[type="checkbox"] {
+ margin-right: 8px;
+ transform: scale(1.1); /* Slightly larger checkbox */
+ }
+ #quoteForm .addon-item label {
+ margin: 0 10px 0 0;
+ display: inline;
+ flex-grow: 1;
+ font-weight: normal; /* Normal weight for add-on labels */
+ color: #c0c0c0; /* Adjust addon label color if needed */
+ }
+ #quoteForm .addon-item input[type="number"] {
+ width: 70px; /* Standardized width for number inputs in add-ons */
+ padding: 8px;
+ margin-left: auto; /* Pushes to the right if space allows */
+ margin-bottom: 0; /* Remove bottom margin for inline items */
+ }
+ #quoteForm .note { /* Style for notes within the form */
+ font-size: 0.9em;
+ color: #888; /* Medium-dark grey for form notes */
+ margin-top: 0px;
+ margin-bottom: 10px;
+ }
+ #total-calculation {
+ margin-top: 25px;
+ padding: 20px;
+ background-color: #2f2f2f; /* Dark grey for total calculation box */
+ border-left: 5px solid #666; /* Medium-dark grey accent */
+ border-radius: 5px;
+ }
+ #total-calculation h3 {
+ margin-top: 0;
+ color: #d0d0d0; /* Light grey for total heading */
+ }
+ #total-calculation p {
+ margin: 8px 0;
+ font-size: 1.1em;
+ color: #c0c0c0; /* Light grey for total text */
+ }
+ #total-calculation p strong {
+ font-size: 1.3em;
+ color: #f5f5f5; /* Off-white for total amount */
+ }
+ </style>
+</head>
+<body>
+ <div class="container">
+ <header>
+ <h1>Maxwell Creative Media</h1>
+ <p>Commercial Photography Pricing</p>
+ <p>Benjamin Maxwell Roberts | Sunnyvale, CA</p>
+ <p>Elevate Your Small Business with Custom Branding Photography</p>
+ </header>
+
+ <section>
+ <h2>Overview</h2>
+ <p>Maxwell Creative Media specializes in commercial photography for small businesses, including corporate headshots, group shots, lifestyle photography, and video content for websites, social media, and marketing. Our pricing is designed to be flexible, allowing custom quotes tailored to your needs. All services include a non-exclusive commercial usage license for website, social media, and digital marketing.</p>
+ <p class="note">Note: Prices are for shoots within 20 miles of Sunnyvale, CA. Payment terms: 50% deposit to book, 50% upon delivery. Delivery via online gallery within 7–14 days, with previews in 24–72 hours.</p>
+ </section>
+
+ <section>
+ <h2>Itemized Pricing</h2>
+
+ <h3>1. Session Fees</h3>
+ <p>Covers setup, shooting time, travel (within 20 miles), and basic creative direction at your location (e.g., job site, office). Required for all shoots.</p>
+ <ul>
+ <li><strong>Mini Session (1–2 hours):</strong> $250 <br> Ideal for small shoots (e.g., 1–3 headshots). Up to 100 raw images captured.</li>
+ <li><strong>Half-Day Session (3–4 hours):</strong> $400 <br> Suitable for small teams (5–10 people). Up to 200 raw images.</li>
+ <li><strong>Full-Day Session (6–8 hours):</strong> $800 <br> For larger teams or multiple locations (10–20 people). Up to 400 raw images.</li>
+ <li><strong>Multi-Session (8–12 hours, 1–2 days):</strong> $1,200 <br> For premium projects with complex needs. Up to 600 raw images.</li>
+ </ul>
+
+ <h3>2. Headshots</h3>
+ <p>Individual professional portraits, shot on-location with basic retouching (color correction, minor blemishes).</p>
+ <ul>
+ <li><strong>Per Headshot (1–2 poses, 1 edited image):</strong> $75 <br> Photographer-selected, web-optimized JPEG (150 DPI).</li>
+ <li><strong>Per Headshot (1–2 poses, 2 edited images):</strong> $120 <br> Client selects from 4–6 proofs, web-optimized JPEGs.</li>
+ <li><strong>Additional Poses/Edits:</strong> $50 per extra image.</li>
+ <li><strong>Minimum:</strong> 2 headshots per session ($150).</li>
+ </ul>
+
+ <h3>3. Group Crew Photos</h3>
+ <p>Team photos, posed or candid, with basic retouching.</p>
+ <ul>
+ <li><strong>Single Group Shot (1 edited image):</strong> $100 <br> Up to 15 people, photographer-selected, web-optimized JPEG.</li>
+ <li><strong>Multiple Group Shots (2–3 edited images):</strong> $250 <br> Different poses/sub-groups, client selects from 5–10 proofs.</li>
+ <li><strong>Large Group Shot (16–30 people, 1 edited image):</strong> $150 <br> Photographer-selected.</li>
+ <li><strong>Additional Group Images:</strong> $75 per extra image.</li>
+ </ul>
+
+ <h3>4. Lifestyle Photography</h3>
+ <p>Candid or staged images of your business in action (e.g., crew working, client interactions). Includes hybrid selection (curated proofing gallery, client selects finals).</p>
+ <ul>
+ <li><strong>Per Lifestyle Image (1 edited image):</strong> $60 <br> Web-optimized JPEG, selected from proofing gallery.</li>
+ <li><strong>Lifestyle Package (5–8 images):</strong> $400 <br> 15–20 image proofing gallery, 1 round of 1 swap.</li>
+ <li><strong>Lifestyle Package (10–15 images):</strong> $700 <br> 25–35 image proofing gallery, 1 round of 2 swaps.</li>
+ <li><strong>Lifestyle Package (20–25 images):</strong> $1,200 <br> 40–50 image proofing gallery, 2 rounds of 3 swaps.</li>
+ <li><strong>Minimum:</strong> 4 lifestyle images per session ($240).</li>
+ </ul>
+
+ <h3>5. Video Content</h3>
+ <p>Short, edited videos for website headers, social media, or marketing. Includes basic editing (transitions, music, logo).</p>
+ <ul>
+ <li><strong>15–30-Second Social Media Reel:</strong> $300 <br> Single location, web-optimized MP4 (1080p).</li>
+ <li><strong>30–60-Second Time-Lapse or B-Roll Video:</strong> $500 <br> Single location, 1 revision.</li>
+ <li><strong>1–2-Minute Branding Video:</strong> $1,000 <br> Multiple locations, 2 revisions.</li>
+ <li><strong>Additional Edits/Revisions:</strong> $150 per revision.</li>
+ </ul>
+
+ <h3>6. Add-Ons and Extras</h3>
+ <p>Enhancements to customize your shoot or deliverables.</p>
+ <ul>
+ <li><strong>High-Resolution Files (300 DPI):</strong> $25 per image <br> For print materials.</li>
+ <li><strong>Advanced Retouching:</strong> $25 per image <br> Background removal, stylized grading.</li>
+ <li><strong>Full Proofing Gallery (50–100 images):</strong> $150 <br> Lightly edited proofs for selection.</li>
+ <li><strong>Social Media Pack (3–5 images):</strong> $150 <br> Platform-optimized for Instagram, LinkedIn.</li>
+ <li><strong>Travel Fee (beyond 20 miles):</strong> $50 per 20 miles.</li>
+ <li><strong>Additional Shoot Time:</strong> $150 per hour.</li>
+ <li><strong>Rush Delivery (3–5 days):</strong> $200 surcharge.</li>
+ <li><strong>PPE Fee (job sites):</strong> $50 <br> If not provided by client.</li>
+ </ul>
+ </section>
+
+ <section>
+ <h2>How to Craft a Custom Quote</h2>
+ <ol>
+ <li><strong>Choose Session Type:</strong> Select Mini, Half-Day, Full-Day, or Multi-Session based on shoot duration and complexity.</li>
+ <li><strong>Add Deliverables:</strong> Pick headshots, group shots, lifestyle images, and/or video per client needs.</li>
+ <li><strong>Include Add-Ons:</strong> Add high-res files, video, or social media packs for specific goals.</li>
+ <li><strong>Calculate Total:</strong> Sum session fee, deliverables, and add-ons. Optional 5–10% discount for bookings over $2,000.</li>
+ <li><strong>Present Quote:</strong> Provide a branded PDF with itemized breakdown, terms, and safety requirements (e.g., PPE for job sites).</li>
+ </ol>
+ <p class="note">Contact us to discuss your project and receive a tailored quote. Ask about crew size, locations, and specific needs (e.g., video, print materials).</p>
+ </section>
+
+ <section id="quote-builder">
+ <h2>Build Your Own Quote</h2>
+ <form id="quoteForm" onsubmit="return false;"> <!-- onsubmit to prevent page reload -->
+
+ <fieldset>
+ <legend>1. Session Fee</legend>
+ <label for="sessionFee">Choose Session Type (Required):</label>
+ <select id="sessionFee" name="sessionFee">
+ <option value="0" data-price="0">Select a session type...</option>
+ <option value="250" data-price="250">Mini Session (1–2 hours) - $250</option>
+ <option value="400" data-price="400">Half-Day Session (3–4 hours) - $400</option>
+ <option value="800" data-price="800">Full-Day Session (6–8 hours) - $800</option>
+ <option value="1200" data-price="1200">Multi-Session (8–12 hours, 1–2 days) - $1,200</option>
+ </select>
+ </fieldset>
+
+ <fieldset>
+ <legend>2. Headshots</legend>
+ <label for="numHeadshots">Number of People for Headshots:</label>
+ <input type="number" id="numHeadshots" name="numHeadshots" value="0" min="0">
+ <p class="note">Minimum charge of $150 if any headshots are selected.</p>
+ <label for="headshotType">Headshot Type:</label>
+ <select id="headshotType" name="headshotType">
+ <option value="75" data-price="75">1 edited image per headshot - $75</option>
+ <option value="120" data-price="120">2 edited images per headshot - $120</option>
+ </select>
+ </fieldset>
+
+ <fieldset>
+ <legend>3. Group Crew Photos</legend>
+ <label for="groupShotType">Choose Group Shot Package:</label>
+ <select id="groupShotType" name="groupShotType">
+ <option value="0" data-price="0">No group photos</option>
+ <option value="100" data-price="100">Single Group Shot (1 edited image, up to 15 people) - $100</option>
+ <option value="250" data-price="250">Multiple Group Shots (2–3 edited images) - $250</option>
+ <option value="150" data-price="150">Large Group Shot (16–30 people, 1 edited image) - $150</option>
+ </select>
+ </fieldset>
+
+ <fieldset>
+ <legend>4. Lifestyle Photography</legend>
+ <label for="numLifestyleImages">Number of Lifestyle Images:</label>
+ <input type="number" id="numLifestyleImages" name="numLifestyleImages" value="0" min="0">
+ <p class="note">Minimum charge of $240 if any lifestyle images are selected. Packages: 5-8 images ($400), 10-15 images ($700), 20-25 images ($1,200). Other quantities at $60/image (subject to min).</p>
+ </fieldset>
+
+ <fieldset>
+ <legend>5. Video Content</legend>
+ <label for="videoContentType">Choose Video Type:</label>
+ <select id="videoContentType" name="videoContentType">
+ <option value="0" data-price="0">No video content</option>
+ <option value="300" data-price="300">15–30-Second Social Media Reel - $300</option>
+ <option value="500" data-price="500">30–60-Second Time-Lapse or B-Roll Video - $500</option>
+ <option value="1000" data-price="1000">1–2-Minute Branding Video - $1,000</option>
+ </select>
+ </fieldset>
+
+ <fieldset>
+ <legend>6. Add-Ons and Extras</legend>
+ <div class="addon-item">
+ <input type="checkbox" id="addOnHighRes" name="addOnHighRes" data-price-per-item="25">
+ <label for="addOnHighRes">High-Resolution Files (300 DPI) - $25 per image</label>
+ <input type="number" id="numHighRes" name="numHighRes" value="0" min="0">
+ </div>
+ <div class="addon-item">
+ <input type="checkbox" id="addOnAdvancedRetouching" name="addOnAdvancedRetouching" data-price-per-item="25">
+ <label for="addOnAdvancedRetouching">Advanced Retouching - $25 per image</label>
+ <input type="number" id="numAdvancedRetouching" name="numAdvancedRetouching" value="0" min="0">
+ </div>
+ <div class="addon-item">
+ <input type="checkbox" id="addOnProofingGallery" name="addOnProofingGallery" data-price="150">
+ <label for="addOnProofingGallery">Full Proofing Gallery (50–100 images) - $150</label>
+ </div>
+ <div class="addon-item">
+ <input type="checkbox" id="addOnSocialMediaPack" name="addOnSocialMediaPack" data-price="150">
+ <label for="addOnSocialMediaPack">Social Media Pack (3–5 images) - $150</label>
+ </div>
+ <div class="addon-item">
+ <input type="checkbox" id="addOnTravelFee" name="addOnTravelFee" data-price-per-item="50">
+ <label for="addOnTravelFee">Travel Fee (beyond 20 miles) - $50 per 20 miles</label>
+ <input type="number" id="numTravelUnits" name="numTravelUnits" value="0" min="0">
+ </div>
+ <div class="addon-item">
+ <input type="checkbox" id="addOnAdditionalTime" name="addOnAdditionalTime" data-price-per-item="150">
+ <label for="addOnAdditionalTime">Additional Shoot Time - $150 per hour</label>
+ <input type="number" id="numAdditionalHours" name="numAdditionalHours" value="0" min="0">
+ </div>
+ <div class="addon-item">
+ <input type="checkbox" id="addOnRushDelivery" name="addOnRushDelivery" data-price="200">
+ <label for="addOnRushDelivery">Rush Delivery (3–5 days) - $200</label>
+ </div>
+ <div class="addon-item">
+ <input type="checkbox" id="addOnPpeFee" name="addOnPpeFee" data-price="50">
+ <label for="addOnPpeFee">PPE Fee (if not provided by client) - $50</label>
+ </div>
+ </fieldset>
+
+ <div id="total-calculation">
+ <h3>Estimated Total</h3>
+ <p>Subtotal: $<span id="subtotalAmount">0.00</span></p>
+ <p>Discount (5% if subtotal > $2000): $<span id="discountAmount">0.00</span></p>
+ <p><strong>Total: $<span id="calculatedTotal">0.00</span></strong></p>
+ <p class="note">This is an estimate. A 50% deposit is required to book, with the remaining 50% due upon delivery. Session fee is required for all quotes.</p>
+ </div>
+ </form>
+ </section>
+
+ <section>
+ <h2>Example Custom Quotes</h2>
+
+ <div class="example">
+ <h3>Small Team (3–5 Crew)</h3>
+ <p><strong>Needs:</strong> 3 headshots, 1 group shot, 5 lifestyle images.</p>
+ <ul>
+ <li>Mini Session (2 hours): $250</li>
+ <li>Headshots (3 × $75): $225</li>
+ <li>Group Shot (1 × $100): $100</li>
+ <li>Lifestyle Package (5 images): $400</li>
+ <li><strong>Total:</strong> $975</li>
+ </ul>
+ <p>2-hour shoot, 10–15 lifestyle proofs, client selects 5. Delivered in 7 days.</p>
+ </div>
+
+ <div class="example">
+ <h3>Medium Team (7–10 Crew)</h3>
+ <p><strong>Needs:</strong> 7 headshots, 2 group shots, 10 lifestyle images, social media pack.</p>
+ <ul>
+ <li>Half-Day Session (4 hours): $400</li>
+ <li>Headshots (7 × $75): $525</li>
+ <li>Group Shots (2–3 images): $250</li>
+ <li>Lifestyle Package (10–15 images): $700</li>
+ <li>Social Media Pack: $150</li>
+ <li><strong>Total:</strong> $2,025</li>
+ </ul>
+ <p>4-hour shoot, 25–35 lifestyle proofs, client selects 10. Delivered in 10 days.</p>
+ </div>
+
+ <div class="example">
+ <h3>Large Team with Video (12–15 Crew)</h3>
+ <p><strong>Needs:</strong> 12 headshots (2 images each), 4 group shots, 15 lifestyle images, 45-second video.</p>
+ <ul>
+ <li>Full-Day Session (7 hours): $800</li>
+ <li>Headshots (12 × $120): $1,440</li>
+ <li>Group Shots (4–6 images): $250</li>
+ <li>Lifestyle Package (15–20 images): $1,200</li>
+ <li>30–60-Second Video: $500</li>
+ <li>High-Res Files (3 images): $75</li>
+ <li><strong>Total:</strong> $4,265</li>
+ </ul>
+ <p>7-hour shoot, 40–50 lifestyle proofs, client selects 15. Delivered in 12 days.</p>
+ </div>
+ </section>
+
+ <footer>
+ <p>Contact Maxwell Creative Media for a custom quote tailored to your business needs.</p>
+ <p>Email: [Your Email] | Phone: [Your Phone] | Sunnyvale, CA</p>
+ <p><a href="mailto:[Your Email]">Request a Quote</a></p>
+ </footer>
+ </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const quoteForm = document.getElementById('quoteForm');
+    if (!quoteForm) return; // Ensure form exists
+
+    function calculateQuote() {
+        let subtotal = 0;
+
+        // 1. Session Fee
+        const sessionFeeElement = document.getElementById('sessionFee');
+        const sessionPrice = parseFloat(sessionFeeElement.options[sessionFeeElement.selectedIndex].dataset.price || 0);
+        subtotal += sessionPrice;
+
+        // 2. Headshots
+        const numHeadshots = parseInt(document.getElementById('numHeadshots').value) || 0;
+        const headshotTypeElement = document.getElementById('headshotType');
+        const headshotPricePerImage = parseFloat(headshotTypeElement.options[headshotTypeElement.selectedIndex].dataset.price || 75);
+        
+        let headshotCost = 0;
+        if (numHeadshots > 0) {
+            const rawHeadshotCost = numHeadshots * headshotPricePerImage;
+            headshotCost = Math.max(rawHeadshotCost, 150); // Apply $150 minimum if headshots are selected
+        }
+        subtotal += headshotCost;
+
+        // 3. Group Crew Photos
+        const groupShotTypeElement = document.getElementById('groupShotType');
+        subtotal += parseFloat(groupShotTypeElement.options[groupShotTypeElement.selectedIndex].dataset.price || 0);
+
+        // 4. Lifestyle Photography
+        const numLifestyleImages = parseInt(document.getElementById('numLifestyleImages').value) || 0;
+        let lifestyleCost = 0;
+        if (numLifestyleImages > 0) {
+            if (numLifestyleImages >= 20 && numLifestyleImages <= 25) {
+                lifestyleCost = 1200;
+            } else if (numLifestyleImages >= 10 && numLifestyleImages <= 15) {
+                lifestyleCost = 700;
+            } else if (numLifestyleImages >= 5 && numLifestyleImages <= 8) {
+                lifestyleCost = 400;
+            } else { // For 1-4 images, or numbers not fitting specific packages (e.g., 9, 16-19)
+                lifestyleCost = numLifestyleImages * 60;
+            }
+            // Apply $240 minimum for any lifestyle service if calculated cost is below it, and images are selected
+            if (lifestyleCost > 0 && lifestyleCost < 240) {
+                lifestyleCost = 240;
+            }
+             // Ensure if numLifestyleImages is 1-4, it respects the $240 minimum directly
+            if (numLifestyleImages > 0 && numLifestyleImages < 5 && (numLifestyleImages * 60) < 240) {
+                lifestyleCost = 240;
+            }
+        }
+        subtotal += lifestyleCost;
+
+        // 5. Video Content
+        const videoContentTypeElement = document.getElementById('videoContentType');
+        subtotal += parseFloat(videoContentTypeElement.options[videoContentTypeElement.selectedIndex].dataset.price || 0);
+
+        // 6. Add-Ons and Extras
+        if (document.getElementById('addOnHighRes').checked) {
+            const numHighRes = parseInt(document.getElementById('numHighRes').value) || 0;
+            subtotal += numHighRes * parseFloat(document.getElementById('addOnHighRes').dataset.pricePerItem || 0);
+        }
+        if (document.getElementById('addOnAdvancedRetouching').checked) {
+            const numAdvancedRetouching = parseInt(document.getElementById('numAdvancedRetouching').value) || 0;
+            subtotal += numAdvancedRetouching * parseFloat(document.getElementById('addOnAdvancedRetouching').dataset.pricePerItem || 0);
+        }
+        if (document.getElementById('addOnProofingGallery').checked) {
+            subtotal += parseFloat(document.getElementById('addOnProofingGallery').dataset.price || 0);
+        }
+        if (document.getElementById('addOnSocialMediaPack').checked) {
+            subtotal += parseFloat(document.getElementById('addOnSocialMediaPack').dataset.price || 0);
+        }
+        if (document.getElementById('addOnTravelFee').checked) {
+            const numTravelUnits = parseInt(document.getElementById('numTravelUnits').value) || 0;
+            subtotal += numTravelUnits * parseFloat(document.getElementById('addOnTravelFee').dataset.pricePerItem || 0);
+        }
+        if (document.getElementById('addOnAdditionalTime').checked) {
+            const numAdditionalHours = parseInt(document.getElementById('numAdditionalHours').value) || 0;
+            subtotal += numAdditionalHours * parseFloat(document.getElementById('addOnAdditionalTime').dataset.pricePerItem || 0);
+        }
+        if (document.getElementById('addOnRushDelivery').checked) {
+            subtotal += parseFloat(document.getElementById('addOnRushDelivery').dataset.price || 0);
+        }
+        if (document.getElementById('addOnPpeFee').checked) {
+            subtotal += parseFloat(document.getElementById('addOnPpeFee').dataset.price || 0);
+        }
+
+        document.getElementById('subtotalAmount').textContent = subtotal.toFixed(2);
+
+        let discount = 0;
+        if (subtotal > 2000) {
+            discount = subtotal * 0.05; // Apply 5% discount
+        }
+        document.getElementById('discountAmount').textContent = discount.toFixed(2);
+
+        const total = subtotal - discount;
+        document.getElementById('calculatedTotal').textContent = total.toFixed(2);
+
+        // Warn if session fee is not selected but other items are
+        const totalDisplay = document.getElementById('calculatedTotal');
+        if (sessionPrice === 0 && subtotal > 0) {
+            totalDisplay.innerHTML = total.toFixed(2) + " <small style='color:red; display:block; margin-top:5px;'>Please select a session fee.</small>";
+        } else if (sessionPrice === 0 && subtotal === 0){
+             totalDisplay.textContent = total.toFixed(2);
+        }
+    }
+
+    const formElements = quoteForm.querySelectorAll('select, input');
+    formElements.forEach(element => {
+        element.addEventListener('change', calculateQuote);
+        if (element.type === 'number' || element.type === 'text') {
+            element.addEventListener('keyup', calculateQuote);
+            element.addEventListener('paste', calculateQuote);
+        }
+    });
+
+    calculateQuote(); // Initial calculation on page load
+});
+</script>
+
+</body>
+</html>
